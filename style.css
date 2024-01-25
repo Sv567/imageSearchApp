@@ -91,3 +91,19 @@ form {
 #show-more-btn{
     display: none;
 }
+
+@media screen and (max-width: 500px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
+    }
+
+    input {
+        max-width: 200px;
+    }
+
+    button {
+        max-width: 100px;
+    }
+}
