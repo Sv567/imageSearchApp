@@ -85,7 +85,7 @@ form {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-top: 2rem;
+    padding: 2rem 0px;
 }
 
 #show-more-btn{
